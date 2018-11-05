@@ -40,4 +40,10 @@ class Shoe
     @condition
   end
   
+  def cobble(condition)
+    if @condition = "old"
+      @condition = "new"
+    end
+  end
+  
 end

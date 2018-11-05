@@ -43,6 +43,7 @@ class Shoe
   def cobble(condition)
     if @condition = "old"
       @condition = "new"
+      puts ""
     end
   end
   
